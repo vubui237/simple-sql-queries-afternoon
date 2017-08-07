@@ -1,0 +1,39 @@
+/* 1. CREATE TABLE Person(
+	ID integer primary key autoincrement,
+  	name varchar(256),
+    age integer,
+  	height integer,
+  	city varchar(256),
+  	FavoriteColor varchar(256)
+) */
+
+/* 2. INSERT INTO Person(name, age, height, city, FavoriteColor)
+VALUES("Katherine",25, 150,"Thee port","Blue"),
+("Sara",26, 162,"Wally World","Blue"),
+("Isaac",142,170,"Newtown","Orange"),
+("James",228,172,"Salt Like City","Black"),
+("Nessie",3000,400,"The Big Lake","Purple") */
+
+/* 3. SELECT * FROM Person ORDER BY height DESC; */
+
+/* 4. SELECT * FROM Person ORDER BY height; */
+
+/* 5. SELECT * FROM Person ORDER BY age desc; */
+
+/* 6. SELECT * FROM Person WHERE age > 20; */
+
+/* 7. SELECT * FROM Person WHERE age = 18; */
+
+/* 8. SELECT * FROM Person WHERE age <20 OR age>30 */
+
+/* 9. SELECT * FROM Person WHERE age != 27; */
+
+/* 10. SELECT * FROM Person WHERE FavoriteColor != "Red"; */
+
+/* 11. SELECT * FROM Person WHERE FavoriteColor !="Red" AND FavoriteColor!="Blue"; */
+
+/* 12. SELECT * FROM Person WHERE FavoriteColor IN ("Blue", "Green"); */
+
+/* 13. SELECT * FROM Person WHERE FavoriteColor IN ("Orange","Green","Blue") */
+
+/* 14. SELECT * FROM Person WHERE FavoriteColor IN ("Yellow","Purple"); */
